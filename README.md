@@ -1,0 +1,2 @@
+# myskill
+my gpt skill
