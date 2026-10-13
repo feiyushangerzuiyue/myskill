@@ -1,0 +1,27 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ultrasound-research-ppt",
+  "version": "1.0.0",
+  "description": "根据文字描述和少量图片，主动检索文献并制作超声集成电路与板级电路科研 PPT。",
+  "author": {
+    "name": "feiyushangerzuiyue",
+    "url": "https://github.com/feiyushangerzuiyue"
+  },
+  "repository": "https://github.com/feiyushangerzuiyue/myskill",
+  "keywords": ["ultrasound", "integrated-circuits", "research", "presentations"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "超声电路科研 PPT",
+        "shortDescription": "根据文字与图片，检索文献并制作超声电路科研 PPT。",
+        "longDescription": "面向超声集成电路与相关板级电路研究，主动检索文献补充背景和相关工作，制作面向同行的可编辑科研演示文稿，支持外出交流、学术会议、论文精读、组会、开题和答辩。",
+        "developerName": "feiyushangerzuiyue",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "根据我的文字描述和图片，主动检索文献，制作一份面向同行的超声电路科研 PPT。"
+        ]
+      }
+    }
+  }
+}

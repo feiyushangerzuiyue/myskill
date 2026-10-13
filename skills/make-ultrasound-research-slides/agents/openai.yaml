@@ -1,0 +1,4 @@
+interface:
+  display_name: "超声电路科研 PPT"
+  short_description: "将文字和图片整理为面向同行的超声芯片与板级电路科研演示文稿，主动检索并注明来源。"
+  default_prompt: "使用 $make-ultrasound-research-slides，依据我的文字描述和图片主动检索补充内容，制作一份面向同行科研人员的外出交流 PPT。"
